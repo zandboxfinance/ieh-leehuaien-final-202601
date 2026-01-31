@@ -61,11 +61,12 @@ async function sendToAI(text, isHidden = false) {
     // 2. 使用 fetch 發送請求
     // 注意：這裡使用 gemini-1.5-flash，這是目前最穩定且免費額度較高的模型
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent`,
       {
         method: "POST",
         headers: {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
+          "x-goog-api-key": API_KEY
         },
         body: JSON.stringify({
           // 這裡傳送完整的對話歷史，讓 AI 記得上下文
