@@ -1,7 +1,7 @@
 // ==========================================
 // 1. 設定 API KEY (請在此填入你的 Key)
 // ==========================================
-const API_KEY = "AIzaSyAsq5fDEYoUzHk6lQy2zkC1QLO0Oh9Nr44"; // 請填入你的 API Key
+const API_KEY = "AIzaSyBalBWAYKYUEdhvcyyJPpX-Q74mZqWju1E"; // 請填入你的 API Key
 
 // ==========================================
 // 2. 遊戲背景設定 (System Prompt)
