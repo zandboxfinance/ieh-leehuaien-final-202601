@@ -4,7 +4,7 @@ import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 // ==========================================
 // 1. 設定 API KEY (請在此填入你的 Key)
 // ==========================================
-const API_KEY = "不給你看";
+const API_KEY = "AIzaSyAsq5fDEYoUzHk6lQy2zkC1QLO0Oh9Nr44";
 
 
 // ==========================================
